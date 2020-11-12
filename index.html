@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Flexbox Homework Assignment - 2020-11-05"
+    />
+    <meta name="author" content="Kelsey McClanahan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Agency</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/1c973cd7ab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <!== Top of Page Links ==>
+      <a class="nav-link" href="#home">Home</a>
+      <a class="nav-link" href="#services">Services</a>
+      <a class="nav-link" href="#about">About Us</a>
+      <a class="nav-link" href="#testimonials">Testimonials</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <header>
+      <a name="home"></a>
+      <h1>Web Agency</h1>
+      <h2>We bring your web vision to life.</h2>
+    </header>
+
+    <!-- MAIN BODY OF PAGE-->
+    <main>
+      <section class="sect-services">
+        <a name="services"></a>
+        <h3>What we offer</h3>
+        <div class="service-items">
+          <div class="box-services">
+            <i class="fas fa-palette icon-services"></i>
+            <p class="p-services">Web Design</p>
+          </div>
+          <div class="box-services">
+            <i class="fas fa-file-code icon-services"></i>
+            <p class="p-services">Development</p>
+          </div>
+          <div class="box-services">
+            <i class="fas fa-search-plus icon-services"></i>
+            <p class="p-services">SEO</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sect-about">
+        <a name="about"></a>
+        <h3>About Us</h3>
+        <div class="about-items">
+          <img
+            class="img-about"
+            src="https://learnenglish.britishcouncil.org/sites/podcasts/files/styles/article/public/RS8069_GettyImages-1015140326-hig.jpg?itok=DKQe2dWp"
+            alt="Busy developers creating something special for their customer."
+          />
+          <p class="p-about">
+            Lorem ipsum enim ratione non, quibusdam quod aut veniam sint facere
+            accusantium. Tempore qui sint laboriosam necessitatibus beatae, esse
+            nemo? Modi optio, maxime sunt et natus corporis tenetur. Incidunt
+            earum possimus rerum hic eligendi accusamus nulla nostrum! Deserunt
+            eum reiciendis impedit, doloremque neque sequi ratione dolores
+            perferendis harum mollitia, cum eos maiores nulla magnam hic autem
+            accusantium quaerat odit animi expedita quidem, iure odio excepturi.
+            Quis aliquam debitis delectus repellendus, voluptates quos
+            reiciendis non?
+          </p>
+        </div>
+      </section>
+
+      <section class="sect-testimonials">
+        <a name="testimonials"></a>
+        <h3>Testimonials</h3>
+        <div class="testimonial-items">
+          <div class="box-testimonial">
+            <p class="p-testimonials">
+              "Web Agency built us a stunning website that we absolutely
+              adore!"<br />- Linda Hanning
+            </p>
+          </div>
+          <div class="box-testimonial">
+            <p class="p-testimonials">
+              "Web Agency developed our application with great detail and
+              functionality. Exactly what we were looking for."<br />- Jimmy
+              Johns
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sect-contact">
+        <a name="contact"></a>
+        <h3>Contact Us</h3>
+        <form action="index2.html" method="GET">
+          <input
+            class="input-control"
+            type="text"
+            name="name"
+            placeholder="Name"
+          />
+          <br />
+          <input
+            class="input-control"
+            type="text"
+            name="email"
+            placeholder="Email"
+          />
+          <br />
+          <textarea
+            class="input-control"
+            name="message"
+            cols="50"
+            rows="8"
+            placeholder="Enter your inquiry here..."
+          ></textarea>
+          <br />
+          <button class="input-control submit-button" type="submit">
+            SEND MESSAGE
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="sect-footer">
+      <h5 align="center">
+        <em>Copyright &copy;2020 by Web Agency. All rights reserved.</em>
+      </h5>
+    </footer>
+  </body>
+</html>
